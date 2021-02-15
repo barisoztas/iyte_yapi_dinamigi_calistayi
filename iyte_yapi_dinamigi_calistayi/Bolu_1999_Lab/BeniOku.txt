@@ -1,0 +1,43 @@
+Deprem benzetimleri (simülasyon)
+
+- Bolu_1999  - genlik %50 küçültülmüştür.
+- ElCentro   - genlik %50 küçültülmüştür.
+- Bayrakli   - Birebir ölçek.
+
+- Serbest titreşim
+
+Filtreli veriler;
+- orjinal verilere 0.1 Hz highpass ve 100 Hz lowpass filtre uygulanarak elde edilmiştir.
+- orjinal verilerin gereksiz olduğu düşünülen ilk ve son kısımları kesilmiştir. 
+
+NOT: Verilerin tümünde;
+ilk sütun      => zaman
+ikinci sütün   => 3.kat ölçümü
+üçüncü sütün   => 2.kat ölçümü
+dördüncü sütün => 1.kat ölçümü
+beşinci sütün  => taban ölçümü
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Göz önünde bulundurulan kat kütleleri:
+1.kat kütlesi = 3.6390 kg
+2.kat kütlesi = 3.5650 kg
+3.kat kütlesi = 3.4850 kg
+
+Serbest titreşim verilerinden bulunan sönüm oranları:
+1.mod => % 2.8
+2.mod => % 1.2
+3.mod => % 0.7
+
+Yapının modal tanılama sonucu bulunan mod frekansları:
+1.mod => 0.83 Hz
+2.mod => 2.59 Hz
+3.mod => 3.91 Hz
+
+Yapının model güncelleme sonuçları:
+1.kat rijitliği => k1=408.86 N/m
+2.kat rijitliği => k2=649.73 N/m
+3.kat rijitliği => k3=744.04 N/m
+
+1.mod => 0.83 Hz
+2.mod => 2.57 Hz
+3.mod => 3.92 Hz
